@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(203, 38, 39, 0.3477766106442577) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* .card {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(187, 187, 191, 0.9500175070028011) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+} */
+
+.card-body {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+  background-image: linear-gradient(
+    to right,
+    #348f50 0%,
+    #56b4d3 51%,
+    #348f50 100%
+  );
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#result {
+  margin-top: 55px;
+}
